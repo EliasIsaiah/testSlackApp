@@ -1,0 +1,26 @@
+{
+  "name": "testslackapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliasIsaiah/testSlackApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EliasIsaiah/testSlackApp/issues"
+  },
+  "homepage": "https://github.com/EliasIsaiah/testSlackApp#readme",
+  "dependencies": {
+    "@slack/bolt": "^2.0.1",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "slackbots": "^1.2.0"
+  }
+}
